@@ -193,6 +193,17 @@ footer {
     .main_title {
         font-size: 30px;
     }
+    
+        /* Stack logo and title vertically on small screens */
+        nav {
+            flex-direction: column;
+            align-items: center;
+        }
+        .logo, .title {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 10px;
+        }
 
     /*  sub menu styling */
     div ul {
@@ -261,4 +272,3 @@ footer {
     display: none;
     margin: 0 auto;
 }  */
-
