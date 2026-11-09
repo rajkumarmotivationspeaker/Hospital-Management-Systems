@@ -19,7 +19,7 @@ function stp() {
   +
   alert('Welcome to the Hospital Management System!');
 }
-setTimeout(stp, 4000);
+// setTimeout(stp, 4000);
 
 
 // let wlcm = document.querySelector(".wlc_img")
